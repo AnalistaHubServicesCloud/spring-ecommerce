@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es" xmlns:th="http://thymelaf.org">
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
 
 <head>
 
@@ -56,7 +56,12 @@
    <!-- Footer -->
 
 	<div th:fragment="footer">
-		<div th:include="usuario/template_usuario.html::footer"></div>
+		<footer class="py-5 bg-dark">
+        <div class="container">
+           <p class="m-0 text-center text-white">Copyright &copy; Spring eCommerce 2025</p>
+         </div>
+         <!-- /.container -->
+        </footer>
 	</div>
 
 
