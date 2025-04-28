@@ -131,6 +131,11 @@ public class HomeController {
 		return "/usuario/Carrito";
 	}
 	
-
+	@GetMapping("/order")
+	public String order()  {
+		
+		return "usuario/resumenorden";
+	}
+    
  
 }
